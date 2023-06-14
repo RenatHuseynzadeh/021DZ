@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.first{
+    width:  100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.two{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+#three{
+    width: 10px;
+    height: 70px;
+    background-color: blue;
+    position: absolute;
+    /* animation-name: bu1; */
+    /* animation-duration: 5; */
+    
+}
+
+
+#b1{
+    background-color: rgb(51, 255, 0);
+    border: aqua;
+   
+}
+
+#b2{
+    background-color: aqua;
+    border: aqua;
+    
+    
+}
+
+
+#ball{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
